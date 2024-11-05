@@ -1,6 +1,0 @@
-[submodule "runtime"]
-	path = runtime
-	url = https://github.com/dotnet/runtime/
-[submodule "netcoredbg"]
-	path = netcoredbg
-	url = https://github.com/Samsung/netcoredbg
