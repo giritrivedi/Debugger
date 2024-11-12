@@ -1,0 +1,6 @@
+[submodule "runtime"]
+	path = runtime
+	url = https://github.com/giritrivedi/runtime
+[submodule "netcoredbg"]
+	path = netcoredbg
+	url = https://github.com/giritrivedi/netcoredbg
