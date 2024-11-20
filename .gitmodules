@@ -4,3 +4,6 @@
 [submodule "netcoredbg"]
 	path = netcoredbg
 	url = https://github.com/giritrivedi/netcoredbg
+[submodule "diagnostics"]
+	path = diagnostics
+	url = git@github.com:giritrivedi/diagnostics.git
