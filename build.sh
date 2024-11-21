@@ -76,6 +76,9 @@ build_netcoredbg()
   echo "Building Netcordbg.. DONE"
 }
 
+#recursively update all submodules. 
+git submodule update --init --recursive
+
 build_diagnostics
 build_runtime
 build_netcoredbg
