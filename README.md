@@ -33,5 +33,5 @@ cp runtime/artifacts/bin/mono/linux.s390x.Debug/libmscordbi.* <sdk_dir>/shared/M
 To start the debuggee along with the debugger, follow below steps. 
 1. export MONO_ENV_OPTIONS='--debugger-agent=transport=dt_socket,address=127.0.0.1:pid_based,server=y,suspend=n,loglevel=5,timeout=100000'
 2. cd netcoredbg/build/src
-3. ./netcoredbg --interpreter=cli -- dotnet <path to dll>
+3. ./netcoredbg --interpreter=cli -- dotnet <path_to_dll>
  
